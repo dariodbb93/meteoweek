@@ -1,6 +1,6 @@
 let wrapperTable = document.getElementById('wrapperTable');
 
-fetch('http://localhost:3000')
+fetch('meteo.php')
     .then(response => {
         response.json()
             .then(meteo => {
